@@ -53,3 +53,7 @@ References:
 https://vercel.com/docs/functions/runtimes/python
 https://vercel.com/docs/headers/request-headers
 https://supabase.com/docs/guides/getting-started/api-keys
+
+BUILD FIX: requirements.txt now lists all pinned dependencies directly. No
+-r include or companion lockfile is required. Set Vercel Root Directory to
+the extracted PythonServer folder, then redeploy.
